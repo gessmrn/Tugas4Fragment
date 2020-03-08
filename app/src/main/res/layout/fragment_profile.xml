@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/aku"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Nama        : Grace Mariana"
+        android:textSize="23sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM           : 124180004"
+        android:layout_marginLeft="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTL           : Pekanbaru,27 Maret 2000"
+        android:layout_marginLeft="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Asal : Duri, Riau"
+        android:layout_marginLeft="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pekerjaan     : Mahasiswa "
+        android:layout_marginLeft="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status           : Lajang"
+        android:layout_marginLeft="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
